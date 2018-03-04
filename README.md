@@ -38,7 +38,7 @@ The upper-right coordinates is set as (5, 5) in application conf for the app how
 
 This repo has the code implementation for the above mentioned problem statement. I have deployed the app in Heroku and exposed an endpoint to ouput the final coordinates.
 
-  endpoint: https://mars-rover-brickx.herokuapp.com/rover?**params=12N,LMLMLMLMM**
+  endpoint: ** https://mars-rover-brickx.herokuapp.com/rover?params=12N,LMLMLMLMM **
   
   param name: **params**
   explaination: 
