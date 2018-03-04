@@ -49,5 +49,5 @@ This repo has the code implementation for the above mentioned problem statement.
   
 ### SBT
 
-Run `sbt test` for running the unit tests
+Use `sbt test` for running the unit tests (after cloning the repo and also assuming sbt is avilable in the machine)
     
