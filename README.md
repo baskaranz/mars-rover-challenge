@@ -38,11 +38,11 @@ The upper-right coordinates is set as (5, 5) in application conf for the app how
 
 This repo has the code implementation for the above mentioned problem statement. I have deployed the app in Heroku and exposed an endpoint to ouput the final coordinates.
 
-  endpoint: ** https://mars-rover-brickx.herokuapp.com/rover?params=12N,LMLMLMLMM **
+  endpoint: https://mars-rover-brickx.herokuapp.com/rover?params=12N,LMLMLMLMM
   
-  param name: **params**
+  param name: params
   explaination: 
-    The chars before ',' should denote the rover's position eg., 12N, 33E etc.,
-    The chars after ',' should denote the instructions telling the rover how to explore the plateau. eg., MLR
+  The chars before ',' should denote the rover's position eg., 12N, 33E etc.,
+  The chars after ',' should denote the instructions telling the rover how to explore the plateau. eg., MLR
   
     
