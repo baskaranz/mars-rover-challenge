@@ -5,7 +5,7 @@ import com.brickx.services.rover.commands.{Move, RoverCommand, TurnLeft, TurnRig
 case class CommandParser(commandStr: Option[String]) {
 
   def commands: Seq[RoverCommand] = {
-    commandStr.getOrElse("").map {
+    commandStr.getOrElse("").toUpperCase.map {
       case 'M' => Move
       case 'L' => TurnLeft
       case 'R' => TurnRight

@@ -87,10 +87,10 @@ class MarsRoverService @Inject()(config: Configuration) {
           val x: Int = directionsStrList(0).toInt
           val y: Int = directionsStrList(1).toInt
           val dirOpt: Option[Direction] = directionsStrList(2) match {
-            case "N" => Some(NORTH)
-            case "W" => Some(WEST)
-            case "S" => Some(SOUTH)
-            case "E" => Some(EAST)
+            case x if x.toUpperCase.equals("N") => Some(NORTH)
+            case x if x.toUpperCase.equals("W") => Some(WEST)
+            case x if x.toUpperCase.equals("S") => Some(SOUTH)
+            case x if x.toUpperCase.equals("E") => Some(EAST)
             case  _  => None
           }
           Logger.info(s"x: ${x} | y: ${y} | direction : ${dirOpt}")
