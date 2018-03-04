@@ -32,7 +32,9 @@ Expected Output:
 5 1 E
 
 
-## Solution
+## Solution 
+
+### API
 
 The upper-right coordinates is set as (5, 5) in application conf for the app however the unit tests could be used to test with any arbitrary values.
 
@@ -45,4 +47,7 @@ This repo has the code implementation for the above mentioned problem statement.
   The chars before ',' should denote the rover's position eg., 12N, 33E etc.,
   The chars after ',' should denote the instructions telling the rover how to explore the plateau. eg., MLR
   
+### SBT
+
+Run `sbt test` for running the unit tests
     
